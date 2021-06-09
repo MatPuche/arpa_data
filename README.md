@@ -9,3 +9,8 @@ The plugin is called "ARPA data” and needs to be installed manually. Download 
 Then, the “sodapy” library must be installed to make the plugin work. To do so, the following command has to be run:  pip install sodapy (pip must be installed).  
 
 Finally, the plugin should appear in the Plugins management box of QGIS, in installed plugins and only needs to be activated as a usual plugin. 
+
+
+HOW TO USE THE PLUGIN
+
+See the pdf report called "Report - June 2021".
