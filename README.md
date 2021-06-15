@@ -11,6 +11,29 @@ Then, the “sodapy” library must be installed to make the plugin work. To do 
 Finally, the plugin should appear in the Plugins management box of QGIS, in installed plugins and only needs to be activated as a usual plugin. 
 
 
-HOW TO USE THE PLUGIN
+PLUGIN FUNCTIONALITIES 
 
-See the pdf report called "Report - June 2021".
+Request the ARPA datasets regarding Weather or Air quality. Available types of sensors: 
+- Air quality: Ammoniaca, Arsenico, Benzene, Benzo(a)pirene, Biossido di Azoto, Biossido di Zolfo, BlackCarbon, Cadmio, Monossido di Azoto, Monossido di Carbonio, Nikel, Ossidi di Azoto, zono, Particelle sospese PM2.5, Particolato Totale Sospeso, Piombo, PM10, PM10 (SM2005). 
+- Weather: Altezza Neve, Direzione Vento, Livello Idrometrico, Precipitazione, Radiazione Globale, Temperatura, Umidità Relativa, Velocità Vento
+
+Available functionalities:
+- Select the range of time (start and end date of monitoring)
+- Distinction between weekends and weekdays 
+- Having only stations locations, with the checkbox "No data"
+- Include the visualization, when one sensor is selected, by means of histograms 
+- Include raw data, when one sensor is selected. /!\ This could require more time than the usual process. 
+- Include a shapefile with multipolygons to define the areas of interest /!\ The CRS of the inserted shapefile must be WSG84
+- Fisher test on statistics per area
+
+
+RESULTS
+
+- One map of polygons representing the areas of interest.
+- One map of points representing the stations concerned by the filters and containing some metadata
+- One map of points representing the sensors concerned by the filters and containing the computed statistics for each sensor
+- One map of points representing the centroid of each of the areas of interest. Each point contains the statistics of the sensor types for the concerned area.
+- (If the raw data have been asked:) One map of points containing all the measurements in the period selected. 
+
+
+For more details, see the pdf report called "Report - June 2021".
