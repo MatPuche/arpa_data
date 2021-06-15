@@ -2,7 +2,7 @@
 QGIS Plugin enabling to extract weather and air quality data of ARPA Lombardia.
 
 
-# INSTALLATION 
+# Installation 
 
 The plugin is called "ARPA data” and needs to be installed manually. Download the folder as a ZIP and unzip it. Plugins in QGIS are stored in a special folder. The plugin directory must be copied to that folder before it can be used. In QGIS, locate your current profile folder by going to Settings ‣ User Profiles ‣ Open Active Profile Folder. Then, copy the plugin folder previsouly unziped to python ‣ plugins subfolder. 
 
@@ -11,13 +11,13 @@ Then, the “sodapy” library must be installed to make the plugin work. To do 
 Finally, the plugin should appear in the Plugins management box of QGIS, in installed plugins and only needs to be activated as a usual plugin. 
 
 
-# PLUGIN FUNCTIONALITIES 
+# Plugin functionalities
 
 Request the ARPA datasets regarding Weather or Air quality. Available types of sensors: 
 - Air quality: Ammoniaca, Arsenico, Benzene, Benzo(a)pirene, Biossido di Azoto, Biossido di Zolfo, BlackCarbon, Cadmio, Monossido di Azoto, Monossido di Carbonio, Nikel, Ossidi di Azoto, zono, Particelle sospese PM2.5, Particolato Totale Sospeso, Piombo, PM10, PM10 (SM2005). 
 - Weather: Altezza Neve, Direzione Vento, Livello Idrometrico, Precipitazione, Radiazione Globale, Temperatura, Umidità Relativa, Velocità Vento
 
-Available functionalities:
+## Available functionalities:
 - Select the range of time (start and end date of monitoring)
 - Distinction between weekends and weekdays 
 - Having only stations locations, with the checkbox "No data"
@@ -27,7 +27,7 @@ Available functionalities:
 - Fisher test on statistics per area
 
 
-# RESULTS
+## Results
 
 - One map of polygons representing the areas of interest.
 - One map of points representing the stations concerned by the filters and containing some metadata
