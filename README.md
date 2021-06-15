@@ -61,8 +61,8 @@ Also, some of the air quality sensors may not be always working (for example: ar
 - Distinction between weekends and weekdays 
 - Having only stations locations, with the checkbox "No data"
 - Include the visualization, when one sensor is selected, by means of histograms 
-- Include raw data, when one sensor is selected. **/!\ This could require more time than the usual process.**
-- Include a shapefile with multipolygons to define the areas of interest **/!\ The CRS of the inserted shapefile must be WSG84**
+- Include raw data, when one sensor is selected. ***/!\ This could require more time than the usual process.***
+- Include a shapefile with multipolygons to define the areas of interest ***/!\ The CRS of the inserted shapefile must be WSG84***
 - Fisher test on statistics per area
 
 
@@ -74,6 +74,6 @@ Also, some of the air quality sensors may not be always working (for example: ar
 - One map of points representing the centroid of each of the areas of interest. Each point contains the statistics of the sensor types for the concerned area.
 - (If the raw data have been asked:) One map of points containing all the measurements in the period selected. 
 
-All these layers are temporary layers and need to be saved if the user wants to use them in future sessions. **They must be saved as Geopackage** in order to keep the attribute names as they are in the layers. 
+All these layers are temporary layers and need to be saved if the user wants to use them in future sessions. ***They must be saved as Geopackage*** in order to keep the attribute names as they are in the layers. 
 
 For more details, see the pdf report called "Report - June 2021".
