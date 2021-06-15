@@ -16,9 +16,43 @@ Finally, the plugin should appear in the Plugins management box of QGIS, in inst
 
 # Plugin functionalities
 
-Request the ARPA datasets regarding Weather or Air quality. Available types of sensors: 
-- Air quality: Ammoniaca, Arsenico, Benzene, Benzo(a)pirene, Biossido di Azoto, Biossido di Zolfo, BlackCarbon, Cadmio, Monossido di Azoto, Monossido di Carbonio, Nikel, Ossidi di Azoto, zono, Particelle sospese PM2.5, Particolato Totale Sospeso, Piombo, PM10, PM10 (SM2005). 
-- Weather: Altezza Neve, Direzione Vento, Livello Idrometrico, Precipitazione, Radiazione Globale, Temperatura, Umidità Relativa, Velocità Vento
+## Available data:
+The plugin enables to request the ARPA datasets regarding Weather or Air quality. 
+
+### Types of sensor for Air quality: 
+- Ammoniaca, 
+- Arsenico, 
+- Benzene, 
+- Benzo(a)pirene, 
+- Biossido di Azoto, 
+- Biossido di Zolfo, 
+- BlackCarbon, 
+- Cadmio, 
+- Monossido di Azoto, 
+- Monossido di Carbonio, 
+- Nikel, 
+- Ossidi di Azoto, 
+- Ozono, 
+- Particelle sospese PM2.5, 
+- Particolato Totale Sospeso, 
+- Piombo, 
+- PM10, 
+- PM10 (SM2005). 
+
+### Types of sensor for Weather : 
+- Altezza Neve, 
+- Direzione Vento, 
+- Livello Idrometrico, 
+- Precipitazione, 
+- Radiazione Globale, 
+- Temperatura, 
+- Umidità Relativa, 
+- Velocità Vento
+
+### Limitations on data
+Some limitations are imposed by the ARPA API:
+- For weather, only the data of the current month are available, with a monitoring frequency of 10 min.
+- For the air quality, the data of the current year are available, with a monitoring frequency of 1 hour.
 
 ## Available functionalities:
 - Select the range of time (start and end date of monitoring)
