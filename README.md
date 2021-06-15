@@ -54,6 +54,8 @@ Some limitations are imposed by the ARPA API:
 - For weather, only the data of the current month are available, with a monitoring frequency of 10 min.
 - For the air quality, the data of the current year are available, with a monitoring frequency of 1 hour.
 
+Also, some of the air quality sensors may not be always working (for example: arsenico or Benzo(a)pirene)
+
 ## Available functionalities:
 - Select the range of time (start and end date of monitoring)
 - Distinction between weekends and weekdays 
