@@ -6,10 +6,10 @@ QGIS Plugin enabling to extract weather and air quality data of ARPA Lombardia.
 
 The plugin is called "ARPA data” and needs to be installed manually. Plugins  in  QGIS  are stored in a special folder. We must copy the plugin directory to that folder before it can be used. 
 
-### 1) Download  the  entire  directory  from  GitHub and unzip it
-### 2) In QGIS, locate your current profile folder by going to Settings ‣ User Profiles ‣ Open Active Profile Folder.
-### 3) Copy the plugin folder previsouly unziped to python ‣ plugins subfolder. 
-### 4) Then, the “sodapy” Python library must be installed to make the plugin work. This can be done in two different ways: inside QGIS or from the command line.
+#### 1) Download  the  entire  directory  from  GitHub and unzip it
+#### 2) In QGIS, locate your current profile folder by going to Settings ‣ User Profiles ‣ Open Active Profile Folder.
+#### 3) Copy the plugin folder previsouly unziped to python ‣ plugins subfolder. 
+#### 4) Then, the “sodapy” Python library must be installed to make the plugin work. This can be done in two different ways: inside QGIS or from the command line.
 ##### Inside QGIS
 Open  QGIS  Python  console  (under  Plugins  »  Python  Console)  and  typethe  following  lines:
 ```
@@ -28,7 +28,7 @@ $ python -m pip install sodapy
 ```
 More information can be found on the GitHub repository of sodapy: https://github.com/xmunoz/sodapy
 
-### 5) Finally, the plugin should appear in the Plugins management box of QGIS, in installed plugins and only needs to be activated as a usual plugin. 
+#### 5) Finally, the plugin should appear in the Plugins management box of QGIS, in installed plugins and only needs to be activated as a usual plugin. 
 
 
 # Plugin functionalities
