@@ -1,5 +1,6 @@
 # arpa_data
 QGIS Plugin enabling to extract weather and air quality data of ARPA Lombardia.
+
 For more details, see the pdf report called "Report - June 2021".
 
 
