@@ -1,5 +1,6 @@
 # arpa_data
 QGIS Plugin enabling to extract weather and air quality data of ARPA Lombardia.
+For more details, see the pdf report called "Report - June 2021".
 
 
 # Installation 
@@ -97,4 +98,4 @@ All these layers are temporary layers and need to be saved if the user wants to 
 
 WARNING: The statistics are computed from the available data provided by the API of ARPA on the selected range of time. However, **there is no assurance of the quality of the results in the sense of statistical significance.** If the sample is too small or unrepresentative, the statistics are computed without taking these problems into consideration. The result can thus be statistically non-significant. To check the quality of the data for air quality, the following legislative decree declares the standard in Italy: https://www.camera.it/parlam/leggi/deleghe/10155dl1.pdf. 
 
-For more details, see the pdf report called "Report - June 2021".
+
