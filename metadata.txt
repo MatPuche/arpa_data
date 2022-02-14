@@ -15,7 +15,7 @@ about=This plugin downloads the data from ARPA Lombardia API and provide statist
 
 
 
-tracker=http://bugs
+tracker=https://github.com/MatPuche/arpa_data/issues
 repository=https://github.com/MatPuche/arpa_data
 # End of mandatory metadata
 
