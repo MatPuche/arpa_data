@@ -12,7 +12,7 @@ email=mathilde-puche@hotmail.com
 about=This plugin downloads the data from ARPA Lombardia API and provide statistics according to the filters given by the user.
 
 tracker=http://bugs
-repository=http://repo
+repository=https://github.com/MatPuche/arpa_data
 # End of mandatory metadata
 
 # Recommended items:
