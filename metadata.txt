@@ -11,6 +11,10 @@ email=mathilde-puche@hotmail.com
 
 about=This plugin downloads the data from ARPA Lombardia API and provide statistics according to the filters given by the user.
 
+      You can follow the steps under https://landscapearchaeology.org/2018/installing-python-packages-in-qgis-3-for-windows/ to install the following libraries on QGIS Python: sodapy.
+
+
+
 tracker=http://bugs
 repository=https://github.com/MatPuche/arpa_data
 # End of mandatory metadata
@@ -22,9 +26,9 @@ hasProcessingProvider=no
 # changelog=
 
 # Tags are comma separated with spaces allowed
-tags=python
+tags=python, air quality, weather, arpa
 
-homepage=http://homepage
+homepage=https://github.com/MatPuche/arpa_data
 category=Plugins
 icon=icon.png
 # experimental flag
